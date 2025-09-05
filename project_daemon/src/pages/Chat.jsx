@@ -186,7 +186,7 @@ export const Chat = () => {
         },
         body: JSON.stringify({
           messages: updatedMessages.map(({ role, content }) => ({ role, content })),
-          model: 'llama3-8b-8192',
+          model: 'llama-3.1-8b-instant',
         }),
       });
 
